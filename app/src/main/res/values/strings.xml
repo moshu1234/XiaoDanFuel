@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">小丹油耗</string>
+    <string name="tabBar1_name">bar1</string>
+    <string name="tabBar2_name">bar2</string>
+    <string name="tabBar3_name">bar3</string>
+    <string name="tabBar4_name">bar4</string>
+    <string name="tabBar5_name">bar5</string>
+    <string name="tabBar6_name">bar6</string>
+</resources>

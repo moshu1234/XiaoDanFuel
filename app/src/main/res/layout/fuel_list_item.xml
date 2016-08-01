@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fuel_list"
+    android:background="@color/colorPrimaryLight">
+        <TextView
+            android:id="@+id/fuel_list_date"
+            android:text="2016-07-31"
+            android:textSize="@dimen/size_mini_plus"
+            android:layout_width="@dimen/list_width"
+            android:layout_height="@dimen/list_height"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/fuel_list_mils"
+            android:text="100000公里"
+            android:textSize="@dimen/size_mini_plus"
+            android:layout_width="@dimen/list_width"
+            android:layout_height="@dimen/list_height"
+            android:gravity="center_vertical"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/fuel_list_fuelAverage"
+            android:text="2.34升/百公里"
+            android:textSize="@dimen/size_mini_plus"
+            android:layout_width="@dimen/list_width"
+            android:layout_height="@dimen/list_height"
+            android:gravity="center_vertical"
+            android:layout_weight="1"/>
+</LinearLayout>

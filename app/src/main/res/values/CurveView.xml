@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurveView">
+        <attr name="baseCoordinateColor" format="color"/>
+        <attr name="baseCoordinateLineWidth" format="float"/>
+        <attr name="contentDataColor" format="color"/>
+        <attr name="contentLineColor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="44dp">
+
+    <Button
+        android:id="@+id/btn_left_top_bar"
+        android:background="#0000"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:id="@+id/ib_left_top_bar"
+        android:background="#0000"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/tv_title_top_bar"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_right_top_bar"
+        android:visibility="gone"
+        android:background="#0000"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RelativeOverlap"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true" />
+
+    <ImageButton
+        android:id="@+id/ib_right_top_bar"
+        android:visibility="gone"
+        android:background="#0000"
+        android:layout_marginEnd="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

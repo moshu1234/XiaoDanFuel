@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size_mini">12dp</dimen>
+    <dimen name="size_mini_plus">16dp</dimen>
+    <dimen name="size_middle">20dp</dimen>
+    <dimen name="size_large">24dp</dimen>
+
+    <dimen name="bottom_tab_padding_up">0dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">0dp</dimen>
+
+    <!--for add record-->
+    <dimen name="record_height">40dp</dimen>
+    <dimen name="record_width">100dp</dimen>
+
+    <dimen name="list_height_mini">30dp</dimen>
+    <dimen name="list_height">40dp</dimen>
+    <dimen name="list_width_middle">60dp</dimen>
+    <dimen name="list_width">100dp</dimen>
+
+</resources>
