@@ -101,9 +101,10 @@ public class FuelCurve extends Fragment {
             month = daoData.get(0).getMonth();
             mCurveView.setXCount(year,month);
         }else {
+            MyDateTime myDateTime = new MyDateTime();
             List<String> xData = new ArrayList<>();
             for (int i = 0; i < 12; i++) {
-                xData.add(String.valueOf(i + 1));
+                xData.add(myDateTime.getCurrentYear()+"/"+(i + 1));
             }
             mCurveView.setxCount(xData);
         }
